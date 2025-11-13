@@ -61,13 +61,13 @@
             {
                 "id": "org.knime.ext.poi3.node.io.filehandling.excel.reader.ExcelTableReaderNodeFactory",
                 "nodename": "Excel Reader",
-                "nrexecs": 23,
+                "nrexecs": 28,
                 "nrfails": 8,
-                "exectime": 44603,
-                "nrcreated": 34,
-                "nrsettingsChanged": 23,
-                "successor": "org.knime.base.node.preproc.crossjoin.CrossJoinerNodeFactory",
-                "successornodename": "Cross Joiner"
+                "exectime": 44762,
+                "nrcreated": 35,
+                "nrsettingsChanged": 24,
+                "successor": "org.knime.base.node.flowcontrol.breakpoint.BreakpointNodeFactory",
+                "successornodename": "Breakpoint"
             },
             {
                 "id": "org.knime.ext.poi3.node.io.filehandling.excel.writer.ExcelTableWriterNodeFactory",
@@ -138,11 +138,11 @@
             {
                 "id": "org.knime.filehandling.utility.nodes.listpaths.ListFilesAndFoldersNodeFactory",
                 "nodename": "List Files/Folders",
-                "nrexecs": 15,
+                "nrexecs": 17,
                 "nrfails": 0,
-                "exectime": 1178,
-                "nrcreated": 6,
-                "nrsettingsChanged": 11,
+                "exectime": 1206,
+                "nrcreated": 7,
+                "nrsettingsChanged": 12,
                 "successor": "org.knime.base.node.meta.looper.variable.start.LoopStartVariable3NodeFactory",
                 "successornodename": "Table Row to Variable Loop Start"
             },
@@ -171,21 +171,21 @@
             {
                 "id": "org.knime.base.node.meta.looper.variable.start.LoopStartVariable3NodeFactory",
                 "nodename": "Table Row to Variable Loop Start",
-                "nrexecs": 136,
+                "nrexecs": 141,
                 "nrfails": 0,
-                "exectime": 655,
-                "nrcreated": 4,
+                "exectime": 697,
+                "nrcreated": 5,
                 "nrsettingsChanged": 0,
-                "successor": "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory",
-                "successornodename": "CSV Reader"
+                "successor": "org.knime.ext.poi3.node.io.filehandling.excel.reader.ExcelTableReaderNodeFactory",
+                "successornodename": "Excel Reader"
             },
             {
                 "id": "org.knime.base.node.meta.looper.LoopEndDynamicNodeFactory",
                 "nodename": "Loop End",
-                "nrexecs": 105,
+                "nrexecs": 108,
                 "nrfails": 29,
-                "exectime": 5926,
-                "nrcreated": 4,
+                "exectime": 5936,
+                "nrcreated": 5,
                 "nrsettingsChanged": 9,
                 "successor": "org.knime.base.node.preproc.colconvert.numbertostring2.NumberToString2NodeFactory",
                 "successornodename": "Number to String"
@@ -805,6 +805,28 @@
                 "nrsettingsChanged": 0,
                 "successor": "n/a",
                 "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.filehandling.utility.nodes.transfer.filechooser.TransferFilesFileChooserNodeFactory",
+                "nodename": "Transfer Files",
+                "nrexecs": 5,
+                "nrfails": 0,
+                "exectime": 232,
+                "nrcreated": 2,
+                "nrsettingsChanged": 7,
+                "successor": "org.knime.base.node.meta.looper.LoopEndDynamicNodeFactory",
+                "successornodename": "Loop End"
+            },
+            {
+                "id": "org.knime.base.node.flowcontrol.breakpoint.BreakpointNodeFactory",
+                "nodename": "Breakpoint",
+                "nrexecs": 4,
+                "nrfails": 1,
+                "exectime": 2,
+                "nrcreated": 1,
+                "nrsettingsChanged": 1,
+                "successor": "org.knime.filehandling.utility.nodes.transfer.filechooser.TransferFilesFileChooserNodeFactory",
+                "successornodename": "Transfer Files"
             }
         ],
         "metaNodes": {
@@ -815,23 +837,23 @@
             "WEB_UI": 208,
             "WEB_UI_QUICK_INSERTION_RECOMMENDED": 22,
             "WEB_UI_HUB": 1,
-            "JAVA_UI": 4
+            "JAVA_UI": 11
         }
     },
-    "uptime": 49238029,
-    "workflowsOpened": 135,
+    "uptime": 48394469,
+    "workflowsOpened": 137,
     "remoteWorkflowsOpened": 0,
-    "workflowsCreated": 21,
+    "workflowsCreated": 22,
     "remoteWorkflowsCreated": 0,
-    "columnarStorageWorkflowsOpened": 134,
+    "columnarStorageWorkflowsOpened": 136,
     "workflowsImported": 0,
     "workflowsExported": 0,
     "webUIPerspectiveSwitches": 2,
     "javaUIPerspectiveSwitches": 3,
     "lastUsedPerspective": "none (classic)",
-    "launches": 54,
+    "launches": 55,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 8474446,
+    "timeSinceLastStart": 2842279,
     "crashes": 9,
     "properlyShutDown": true
 }
