@@ -1,0 +1,2 @@
+jdbc:mysql://<host>:<port>/[database]
+jdbc:mysql://192.168.106.22:3306/photo_app

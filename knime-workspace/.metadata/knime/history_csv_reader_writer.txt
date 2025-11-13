@@ -1,0 +1,10 @@
+E:\COURSES\KNIME - a crash course for beginners\Course Files\Finalvisualization.csv
+D:\RBO_03.11.2025\RBO_6\KNIME\R06.BNK.v1.129001M102025.xlsx
+E:\COURSES\KNIME - a crash course for beginners\Course Files\FinalTransactions.csv
+C:\Users\n.ashimov\Downloads\tilek.csv
+E:\RSK_STAFF_REQUESTS\Тилек Асанович\02.09.2025\Новая папка\OAR2_20250805_002000_0021.txt
+E:\COURSES\KNIME - a crash course for beginners\Course Files\Transactions.csv
+E:\RSK_STAFF_REQUESTS\Тилек Асанович\02.09.2025\Новая папка\OAR2_20250802_002000_0021.txt
+E:\COURSES\KNIME - a crash course for beginners\Course Files\Transactions1.csv
+E:\RSK_STAFF_REQUESTS\Кырбашева Гульзат Азаматовна\30.09.2025\OAR2_20250914_002000_0021
+E:\COURSES\KNIME - a crash course for beginners\Course Files\Transactions\Transactions Apr22.csv

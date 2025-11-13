@@ -1,0 +1,7 @@
+drivers/oracle/database_type=oracle
+drivers/oracle/description=
+drivers/oracle/driver_class=oracle.jdbc.OracleDriver
+drivers/oracle/paths/0=E\:\\DataGripProjects\\ojdbc17.jar
+drivers/oracle/url_template=jdbc\:oracle\:thin\:@<host>\:<port>/<database>
+drivers/oracle/version=23.7.0
+eclipse.preferences.version=1
