@@ -1,50 +1,7 @@
 {
-  "version" : "5.5.2.v202509292032",
-  "projects" : [ {
-    "name" : "Test",
-    "active" : false,
-    "origin" : {
-      "providerId" : "local",
-      "spaceId" : "local",
-      "relativePath" : "Test"
-    }
-  }, {
-    "name" : "Oracle",
-    "active" : false,
-    "origin" : {
-      "providerId" : "local",
-      "spaceId" : "local",
-      "relativePath" : "---KNIME Crashcourse\\Oracle"
-    }
-  } ],
+  "version" : "5.8.0.v202510131944",
+  "projects" : [ ],
   "mostRecentlyUsedProjects" : [ {
-    "name" : "CaseStudy_2",
-    "timeUsed" : "2025-10-14T15:55:33.8143925+06:00",
-    "origin" : {
-      "providerId" : "local",
-      "spaceId" : "local",
-      "projectType" : "WORKFLOW",
-      "relativePath" : "---KNIME Crashcourse\\CaseStudy_2"
-    }
-  }, {
-    "name" : "DB_Connections",
-    "timeUsed" : "2025-10-17T13:37:32.4813848+06:00",
-    "origin" : {
-      "providerId" : "local",
-      "spaceId" : "local",
-      "projectType" : "WORKFLOW",
-      "relativePath" : "---KNIME Crashcourse\\DB_Connections"
-    }
-  }, {
-    "name" : "RBO_TEST",
-    "timeUsed" : "2025-10-21T10:37:06.1041804+06:00",
-    "origin" : {
-      "providerId" : "local",
-      "spaceId" : "local",
-      "projectType" : "WORKFLOW",
-      "relativePath" : "---KNIME Crashcourse\\RBO_TEST"
-    }
-  }, {
     "name" : "Test",
     "timeUsed" : "2025-10-28T13:09:38.2594753+06:00",
     "origin" : {
@@ -54,42 +11,6 @@
       "relativePath" : "Test"
     }
   }, {
-    "name" : "Oracle",
-    "timeUsed" : "2025-10-28T15:26:09.3339378+06:00",
-    "origin" : {
-      "providerId" : "local",
-      "spaceId" : "local",
-      "projectType" : "WORKFLOW",
-      "relativePath" : "---KNIME Crashcourse\\Oracle"
-    }
-  }, {
-    "name" : "CaseStudy_1",
-    "timeUsed" : "2025-10-28T16:20:39.5669602+06:00",
-    "origin" : {
-      "providerId" : "local",
-      "spaceId" : "local",
-      "projectType" : "WORKFLOW",
-      "relativePath" : "---KNIME Crashcourse\\CaseStudy_1"
-    }
-  }, {
-    "name" : "CaseStudy_3",
-    "timeUsed" : "2025-10-28T16:20:47.3527555+06:00",
-    "origin" : {
-      "providerId" : "local",
-      "spaceId" : "local",
-      "projectType" : "WORKFLOW",
-      "relativePath" : "---KNIME Crashcourse\\CaseStudy_3"
-    }
-  }, {
-    "name" : "1_2_3_shag",
-    "timeUsed" : "2025-11-03T10:15:56.0060961+06:00",
-    "origin" : {
-      "providerId" : "local",
-      "spaceId" : "local",
-      "projectType" : "WORKFLOW",
-      "relativePath" : "---KNIME Crashcourse\\1_2_3_shag"
-    }
-  }, {
     "name" : "CaseStudy1",
     "timeUsed" : "2025-11-12T09:27:41.9437101+06:00",
     "origin" : {
@@ -97,15 +18,6 @@
       "spaceId" : "local",
       "projectType" : "WORKFLOW",
       "relativePath" : "KNIMECrashcourse\\CaseStudy1"
-    }
-  }, {
-    "name" : "OAR_отчеты",
-    "timeUsed" : "2025-11-12T11:43:39.2330973+06:00",
-    "origin" : {
-      "providerId" : "local",
-      "spaceId" : "local",
-      "projectType" : "WORKFLOW",
-      "relativePath" : "---KNIME Crashcourse\\OAR_отчеты"
     }
   }, {
     "name" : "CaseStudy2",
@@ -151,6 +63,24 @@
       "spaceId" : "local",
       "projectType" : "WORKFLOW",
       "relativePath" : "KNIMECrashcourse\\Workflow Control"
+    }
+  }, {
+    "name" : "workflow path control",
+    "timeUsed" : "2025-11-13T18:28:17.4473918+06:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "KNIMECrashcourse\\workflow path control"
+    }
+  }, {
+    "name" : "database",
+    "timeUsed" : "2025-11-13T23:30:01.3517031+06:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "KNIMECrashcourse\\database"
     }
   } ]
 }

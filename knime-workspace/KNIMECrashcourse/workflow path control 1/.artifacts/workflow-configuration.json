@@ -1,0 +1,12 @@
+{
+    "integer-input-17": {
+        "label": "Label",
+        "type": "integer",
+        "default": 1
+    },
+    "single-selection-7": {
+        "label": "Choose Port",
+        "type": "string",
+        "default": "SalesByProduct"
+    }
+}

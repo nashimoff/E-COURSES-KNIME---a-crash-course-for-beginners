@@ -1,0 +1,2772 @@
+{
+  "name" : "KNIME Workspace",
+  "frequencies" : [ {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.column.renamer.ColumnRenamerNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.sorter.SorterNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.ext.poi3.node.io.filehandling.excel.writer.ExcelTableWriterNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.meta.looper.LoopEndDynamicNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.flowcontrol.breakpoint.BreakpointNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.filehandling.utility.nodes.transfer.filechooser.TransferFilesFileChooserNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.meta.looper.LoopEndDynamicNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.pivot.Pivot2NodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.json.node.fromxml.XMLToJSONNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.json.node.jsonpath.multi.JSONPathNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.ext.poi3.node.io.filehandling.excel.reader.ExcelTableReaderNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.switches.emptytableswitch.EmptyTableSwitchNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.table.splitter.TableSplitterNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.table.cellextractor.CellExtractorNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.table.cellupdater.CellUpdaterNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.switches.caseswitch.any.CaseStartAnyNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.ext.jep.JEPNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.groupby.GroupByNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.mine.svm.learner.SVMLearnerNodeFactory2"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.mine.svm.predictor2.SVMPredictorNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.meta.xvalidation.AggregateOutputNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.ext.poi3.node.io.filehandling.excel.reader.ExcelTableReaderNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.mine.neural.mlp2.MLPPredictorNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.meta.xvalidation.AggregateOutputNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.mine.scorer.accuracy.AccuracyScorer2NodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.constantvalue.ConstantValueColumnNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.ext.jep.JEPNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.rowkey2.RowKeyNodeFactory2"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.ungroup.UngroupNodeFactory"
+    },
+    "count" : 2
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.table.reader.KnimeTableReaderNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.colconvert.numbertostring2.NumberToString2NodeFactory"
+    },
+    "count" : 2
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.normalize3.Normalizer3NodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.meta.xvalidation.XValidatePartitionerFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.mine.svm.predictor2.SVMPredictorNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.normalize3.Normalizer3NodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.meta.xvalidation.XValidatePartitionerFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.mine.svm.learner.SVMLearnerNodeFactory2"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.table.splitter.TableSplitterNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.table.cellupdater.CellUpdaterNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.row3.RowFilterNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.mine.decisiontree2.learner2.DecisionTreeLearnerNodeFactory3"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.mine.decisiontree2.predictor2.DecTreePredictorNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.views.node.scatterplot.ScatterPlotNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.ext.poi3.node.io.filehandling.excel.reader.ExcelTableReaderNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.rules.engine.RuleEngineFilterNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.rowagg.RowAggregatorNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.valuelookup.ValueLookupNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.filehandling.utility.nodes.listpaths.ListFilesAndFoldersNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.meta.looper.variable.start.LoopStartVariable3NodeFactory"
+    },
+    "count" : 3
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.mine.decisiontree2.learner2.DecisionTreeLearnerNodeFactory3"
+    },
+    "node" : {
+      "factoryId" : "org.knime.ensembles.pmmlporttocell.PMMLPortToCellNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.rules.engine.RuleEngineNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.append.row.AppendedRowsNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.valuelookup.ValueLookupNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.rowagg.RowAggregatorNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factory" : "MetaNode",
+      "name" : "Product Infos / Association Rules"
+    },
+    "node" : {
+      "factory" : "MetaNode",
+      "name" : "Total Price of current Basket"
+    },
+    "successor" : {
+      "factory" : "MetaNode",
+      "name" : "Refine"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.colconvert.numbertostring2.NumberToString2NodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.pmml.normalize.NormalizerPMMLNodeFactory2"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.base.node.rules.engine.RuleEngineNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.rounddouble.RoundDoubleNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.rowagg.RowAggregatorNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.columnappend2.ColumnAppender2NodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.column.renamer.ColumnRenamerNodeFactory"
+    },
+    "count" : 2
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.partition.PartitionNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.mine.decisiontree2.predictor2.DecTreePredictorNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.views.node.scatterplot.ScatterPlotNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.ext.poi3.node.io.filehandling.excel.reader.ExcelTableReaderNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "count" : 4
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.pmml.missingval.compute.MissingValueHandlerNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factory" : "MetaNode",
+      "name" : "Train and Cross Validate a Neural Network"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.append.row.AppendedRowsNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.sorter.SorterNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.meta.xvalidation.XValidatePartitionerFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.mine.decisiontree2.predictor2.DecTreePredictorNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.meta.xvalidation.AggregateOutputNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.ext.poi3.node.io.filehandling.excel.reader.ExcelTableReaderNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.ext.poi3.node.io.filehandling.excel.reader.ExcelTableReaderNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.pmml.missingval.compute.MissingValueHandlerNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.table.reader.KnimeTableReaderNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.valuelookup.ValueLookupNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.rowagg.RowAggregatorNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.column.renamer.ColumnRenamerNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.base.node.mine.svm.learner.SVMLearnerNodeFactory2"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.ensembles.pmmlporttocell.PMMLPortToCellNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.row3.RowFilterNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.row3.RowFilterNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.ext.jep.JEPNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.filehandling.utility.nodes.listpaths.ListFilesAndFoldersNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.meta.looper.variable.start.LoopStartVariable3NodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.ext.textprocessing.nodes.preprocessing.puncterasure.PunctuationErasureNodeFactory2"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.ext.textprocessing.nodes.preprocessing.numberfilter.NumberFilterNodeFactory2"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.flowcontrol.sleep.SleepNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.pivot.Pivot2NodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.ext.jep.JEPNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.row3.RowFilterNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.ensembles.tabletopmmlport.TableToPMMLNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.pmml.writer.PMMLWriterNodeFactory2"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.base.node.mine.neural.rprop.RPropNodeFactory2"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.ensembles.pmmlporttocell.PMMLPortToCellNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.colconvert.numbertostring2.NumberToString2NodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.partition.PartitionNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.ext.poi3.node.io.filehandling.excel.reader.ExcelTableReaderNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.flowcontrol.trycatch.generictry.DataPortTryNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.database.extension.sqlite.node.connector.SQLiteDBConnectorNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.database.node.io.reader.query.DBQueryReaderNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.append.row.AppendedRowsNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.cellsplit2.CellSplitter2NodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.matcher.SubsetMatcherNodeFactory"
+    },
+    "successor" : {
+      "factory" : "MetaNode",
+      "name" : "Top 2 Rules"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.partition.PartitionNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.ext.poi3.node.io.filehandling.excel.reader.ExcelTableReaderNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.switches.emptytableswitch.EmptyTableSwitchNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.switches.endif.EndifNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.normalize3.Normalizer3NodeFactory"
+    },
+    "successor" : {
+      "factory" : "MetaNode",
+      "name" : "Apply the model on all data"
+    },
+    "count" : 2
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.ext.poi3.node.io.filehandling.excel.reader.ExcelTableReaderNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.valuelookup.ValueLookupNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.ext.poi3.node.io.filehandling.excel.writer.ExcelTableWriterNodeFactory"
+    },
+    "count" : 2
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.matcher.SubsetMatcherNodeFactory"
+    },
+    "node" : {
+      "factory" : "MetaNode",
+      "name" : "Top 2 Rules"
+    },
+    "successor" : {
+      "factory" : "MetaNode",
+      "name" : "Refine"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.database.extension.sqlite.node.connector.SQLiteDBConnectorNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.database.node.io.reader.query.DBQueryReaderNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.js.base.node.configuration.selection.single.SingleSelectionDialogNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.switches.caseswitch.any.CaseStartAnyNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.sorter.SorterNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.row3.RowFilterNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.ensembles.tabletopmmlport.TableToPMMLNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.meta.looper.variable.start.LoopStartVariable3NodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.ext.poi3.node.io.filehandling.excel.reader.ExcelTableReaderNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.switches.emptytableswitch.EmptyTableSwitchNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.pmml.normalize.NormalizerPMMLNodeFactory2"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.mine.cluster.kmeans.ClusterNodeFactory2"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.pmml.normalize.NormalizerPMMLDeNodeFactory"
+    },
+    "count" : 2
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.base.node.io.tablecreator.TableCreator2NodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.sorter.SorterNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.table.cropper.TableCropperNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.columnappend2.ColumnAppender2NodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.ext.poi3.node.io.filehandling.excel.reader.ExcelTableReaderNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.colconvert.numbertostring2.NumberToString2NodeFactory"
+    },
+    "count" : 2
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.switches.caseswitch.any.CaseStartAnyNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.ext.jep.JEPNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.row3.RowFilterNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.ext.itemset.nodes.learner.AssociationRuleLearnerNodeFactory"
+    },
+    "node" : {
+      "factory" : "MetaNode",
+      "name" : "Ungroup collections"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.table.writer.TableWriterNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.append.row.AppendedRowsNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.rest.nodes.get.RestGetNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.json.node.fromxml.XMLToJSONNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.column.renamer.ColumnRenamerNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.append.row.AppendedRowsNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.js.base.node.configuration.input.dbl.DoubleDialogNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.ext.itemset.nodes.learner.AssociationRuleLearnerNodeFactory"
+    },
+    "successor" : {
+      "factory" : "MetaNode",
+      "name" : "Ungroup collections"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.table.splitter.TableSplitterNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.append.row.AppendedRowsNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.table.cropper.TableCropperNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.mine.svm.learner.SVMLearnerNodeFactory2"
+    },
+    "node" : {
+      "factoryId" : "org.knime.ensembles.pmmlporttocell.PMMLPortToCellNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.rules.engine.RuleEngineNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.cellsplit2.CellSplitter2NodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.ext.itemset.nodes.learner.AssociationRuleLearnerNodeFactory"
+    },
+    "successor" : {
+      "factory" : "MetaNode",
+      "name" : "Ungroup collections"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.switches.caseswitch.any.CaseStartAnyNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.row3.RowFilterNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.append.row.AppendedRowsNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.table.cropper.TableCropperNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.ext.jep.JEPNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.ext.powerbi.base.nodes.send2.SendToPowerBINodeFactory2"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.sorter.SorterNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.row3.RowFilterNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory"
+    },
+    "node" : {
+      "factory" : "MetaNode",
+      "name" : "Train and Cross Validate a Decision Tree"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.append.row.AppendedRowsNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.normalize3.Normalizer3NodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.meta.xvalidation.XValidatePartitionerFactory"
+    },
+    "count" : 2
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.ext.poi3.node.io.filehandling.excel.reader.ExcelTableReaderNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.rules.engine.RuleEngineFilterNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.rowagg.RowAggregatorNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.json.node.jsonpath.multi.JSONPathNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.ext.poi3.node.io.filehandling.excel.writer.ExcelTableWriterNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.colconvert.numbertostring2.NumberToString2NodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.partition.PartitionNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.mine.decisiontree2.learner2.DecisionTreeLearnerNodeFactory3"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.colconvert.numbertostring2.NumberToString2NodeFactory"
+    },
+    "node" : {
+      "factory" : "MetaNode",
+      "name" : "Document Creation and document pre-processing"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.ext.textprocessing.nodes.mining.topic.ParallelTopicExtractorNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.switches.caseswitch.any.CaseStartAnyNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.pivot.Pivot2NodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.ext.textprocessing.nodes.preprocessing.puncterasure.PunctuationErasureNodeFactory2"
+    },
+    "node" : {
+      "factoryId" : "org.knime.ext.textprocessing.nodes.preprocessing.numberfilter.NumberFilterNodeFactory2"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.ext.textprocessing.nodes.preprocessing.ncharsfilter.NCharsFilterNodeFactory2"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.meta.xvalidation.XValidatePartitionerFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.mine.neural.mlp2.MLPPredictorNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.meta.xvalidation.AggregateOutputNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.filehandling.utility.nodes.listpaths.ListFilesAndFoldersNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.meta.looper.variable.start.LoopStartVariable3NodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.ext.poi3.node.io.filehandling.excel.reader.ExcelTableReaderNodeFactory"
+    },
+    "count" : 2
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.row3.RowFilterNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.duplicates.DuplicateRowFilterNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.rowagg.RowAggregatorNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.column.renamer.ColumnRenamerNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.columnappend2.ColumnAppender2NodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.base.node.flowcontrol.sleep.SleepNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.rowtocolumnheader.RowToColumnHeaderNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.table.splitter.TableSplitterNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.table.cellextractor.CellExtractorNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.rest.nodes.get.RestGetNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.json.node.fromxml.XMLToJSONNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.json.node.jsonpath.multi.JSONPathNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.mine.scorer.accuracy.AccuracyScorer2NodeFactory"
+    },
+    "node" : {
+      "factory" : "MetaNode",
+      "name" : "Creation of a table with accuracy and model type (SVM)"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.crossjoin.CrossJoinerNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.ext.jep.JEPNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.ext.tableau.hyperapi.write.TableauHyperWriterNodeFactory2"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.duplicates.DuplicateRowFilterNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.row3.RowFilterNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.row3.RowFilterNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.ext.poi3.node.io.filehandling.excel.reader.ExcelTableReaderNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.ext.jep.JEPNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.meta.looper.variable.start.LoopStartVariable3NodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.meta.looper.LoopEndDynamicNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.table.reader.KnimeTableReaderNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.cellsplit2.CellSplitter2NodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.ext.itemset.nodes.learner.AssociationRuleLearnerNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.meta.xvalidation.AggregateOutputNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.mine.scorer.accuracy.AccuracyScorer2NodeFactory"
+    },
+    "successor" : {
+      "factory" : "MetaNode",
+      "name" : "Creation of a table with accuracy and model type (SVM)"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.normalize3.Normalizer3NodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.meta.xvalidation.XValidatePartitionerFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.mine.neural.rprop.RPropNodeFactory2"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.ext.poi3.node.io.filehandling.excel.reader.ExcelTableReaderNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.flowcontrol.trycatch.genericcatch.DataPortCatchNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.flowcontrol.trycatch.generictry.DataPortTryNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.flowcontrol.breakpoint.BreakpointNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.flowcontrol.trycatch.genericcatch.DataPortCatchNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.mine.scorer.accuracy.AccuracyScorer2NodeFactory"
+    },
+    "node" : {
+      "factory" : "MetaNode",
+      "name" : "Creation of a table with accuracy and model type (Neural Network)"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.crossjoin.CrossJoinerNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.duplicates.DuplicateRowFilterNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.rowagg.RowAggregatorNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.valuelookup.ValueLookupNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factory" : "MetaNode",
+      "name" : "Product Infos / Association Rules"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.matcher.SubsetMatcherNodeFactory"
+    },
+    "successor" : {
+      "factory" : "MetaNode",
+      "name" : "Top 2 Rules"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.colconvert.stringtonumber2.StringToNumber2NodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.pivot.Pivot2NodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.ext.birt.nodes.io.filehandling.pdf.PdfReport2NodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.util.timerinfo.TimerinfoNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.js.base.node.configuration.selection.single.SingleSelectionDialogNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.switches.caseswitch.any.CaseStartAnyNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.pivot.Pivot2NodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.ext.jep.JEPNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.constantvalue.ConstantValueColumnNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.rowtocolumnheader.RowToColumnHeaderNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.table.splitter.TableSplitterNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.table.cellupdater.CellUpdaterNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factory" : "MetaNode",
+      "name" : "Apply the model on all data"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.crossjoin.CrossJoinerNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.colconvert.numbertostring2.NumberToString2NodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.pmml.normalize.NormalizerPMMLNodeFactory2"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.mine.cluster.kmeans.ClusterNodeFactory2"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.append.row.AppendedRowsNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.table.cropper.TableCropperNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.base.node.meta.xvalidation.XValidatePartitionerFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.mine.decisiontree2.learner2.DecisionTreeLearnerNodeFactory3"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.duplicates.DuplicateRowFilterNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.row3.RowFilterNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factory" : "MetaNode",
+      "name" : "Total Price of current Basket"
+    },
+    "node" : {
+      "factory" : "MetaNode",
+      "name" : "Refine"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.views.node.tableview.TableViewNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.base.node.mine.decisiontree2.learner2.DecisionTreeLearnerNodeFactory3"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.ensembles.pmmlporttocell.PMMLPortToCellNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.meta.xvalidation.AggregateOutputNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.mine.scorer.accuracy.AccuracyScorer2NodeFactory"
+    },
+    "successor" : {
+      "factory" : "MetaNode",
+      "name" : "Creation of a table with accuracy and model type (Neural Network)"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.table.reader.KnimeTableReaderNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.valuelookup.ValueLookupNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.colconvert.numbertostring2.NumberToString2NodeFactory"
+    },
+    "count" : 2
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.rowtocolumnheader.RowToColumnHeaderNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.table.splitter.TableSplitterNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.append.row.AppendedRowsNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.normalize3.Normalizer3NodeFactory"
+    },
+    "node" : {
+      "factory" : "MetaNode",
+      "name" : "Apply the model on all data"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.crossjoin.CrossJoinerNodeFactory"
+    },
+    "count" : 2
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.js.base.node.configuration.selection.single.SingleSelectionDialogNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.switches.caseswitch.any.CaseStartAnyNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.ext.jep.JEPNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "count" : 2
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.colconvert.categorytonumber2.CategoryToNumberNodeFactory2"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.valuelookup.ValueLookupNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.column.renamer.ColumnRenamerNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.sorter.SorterNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.partition.PartitionNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.mine.decisiontree2.predictor2.DecTreePredictorNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.mine.scorer.accuracy.AccuracyScorer2NodeFactory"
+    },
+    "count" : 2
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.row3.RowFilterNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.duplicates.DuplicateRowFilterNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.views.node.piechart.PieChartNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"
+    },
+    "count" : 2
+  }, {
+    "predecessor" : {
+      "factory" : "MetaNode",
+      "name" : "Document Creation and document pre-processing"
+    },
+    "node" : {
+      "factoryId" : "org.knime.ext.textprocessing.nodes.mining.topic.ParallelTopicExtractorNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.groupby.GroupByNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.switches.emptytableswitch.EmptyTableSwitchNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.switches.endif.EndifNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.meta.looper.LoopEndDynamicNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.rules.engine.RuleEngineFilterNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.rowagg.RowAggregatorNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.columnappend2.ColumnAppender2NodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.row3.RowFilterNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.ext.jep.JEPNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.crossjoin.CrossJoinerNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.row3.RowFilterNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.ext.jep.JEPNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.constantvalue.ConstantValueColumnNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.constantvalue.ConstantValueColumnNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.constantvalue.ConstantValueColumnNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.rowkey2.RowKeyNodeFactory2"
+    },
+    "count" : 3
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.base.node.meta.xvalidation.XValidatePartitionerFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.mine.decisiontree2.predictor2.DecTreePredictorNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.mine.decisiontree2.learner2.DecisionTreeLearnerNodeFactory3"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.mine.decisiontree2.predictor2.DecTreePredictorNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.mine.scorer.accuracy.AccuracyScorer2NodeFactory"
+    },
+    "count" : 2
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.io.tablecreator.TableCreator2NodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.cellsplit2.CellSplitter2NodeFactory"
+    },
+    "successor" : {
+      "factory" : "MetaNode",
+      "name" : "Total Price of current Basket"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.filehandling.utility.nodes.transfer.filechooser.TransferFilesFileChooserNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.switches.endif.EndifNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.ext.jep.JEPNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.ext.tableau.hyperapi.sendtable.SendToTableauHyperNodeFactory2"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.column.renamer.ColumnRenamerNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.ext.jep.JEPNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.ext.poi3.node.io.filehandling.excel.reader.ExcelTableReaderNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.append.row.AppendedRowsNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.js.base.node.configuration.input.integer.IntegerDialogNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.ext.sun.nodes.script.node.ifswitch.JavaIfSwitchNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.rowkey2.RowKeyNodeFactory2"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.ungroup.UngroupNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.groupby.GroupByNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.append.row.AppendedRowsNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.valuelookup.ValueLookupNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factory" : "MetaNode",
+      "name" : "Train and Cross Validate a SVM"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.append.row.AppendedRowsNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.sorter.SorterNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.ext.poi3.node.io.filehandling.excel.reader.ExcelTableReaderNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.rowtocolumnheader.RowToColumnHeaderNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.rules.engine.RuleEngineFilterNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.duplicates.DuplicateRowFilterNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.rowagg.RowAggregatorNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.database.node.io.reader.query.DBQueryReaderNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.append.row.AppendedRowsNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.colconvert.stringtonumber2.StringToNumber2NodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.valuelookup.ValueLookupNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.rowagg.RowAggregatorNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.partition.PartitionNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.mine.decisiontree2.learner2.DecisionTreeLearnerNodeFactory3"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.colconvert.stringtonumber2.StringToNumber2NodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.js.base.node.configuration.input.dbl.DoubleDialogNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.ext.itemset.nodes.learner.AssociationRuleLearnerNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.column.renamer.ColumnRenamerNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.append.row.AppendedRowsNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.ext.poi3.node.io.filehandling.excel.reader.ExcelTableReaderNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.append.row.AppendedRowsNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.mine.neural.rprop.RPropNodeFactory2"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.mine.neural.mlp2.MLPPredictorNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.meta.xvalidation.AggregateOutputNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.groupby.GroupByNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.sorter.SorterNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.switches.emptytableswitch.EmptyTableSwitchNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.filehandling.utility.nodes.transfer.filechooser.TransferFilesFileChooserNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.mine.scorer.accuracy.AccuracyScorer2NodeFactory"
+    },
+    "node" : {
+      "factory" : "MetaNode",
+      "name" : "Creation of a table with accuracy and model type (decision tree)"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.crossjoin.CrossJoinerNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.partition.PartitionNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.mine.decisiontree2.learner2.DecisionTreeLearnerNodeFactory3"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.mine.decisiontree2.predictor2.DecTreePredictorNodeFactory"
+    },
+    "count" : 2
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.valuelookup.ValueLookupNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.table.reader.KnimeTableReaderNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.colconvert.numbertostring2.NumberToString2NodeFactory"
+    },
+    "successor" : {
+      "factory" : "MetaNode",
+      "name" : "Ungroup collections"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factory" : "MetaNode",
+      "name" : "Top 2 Rules"
+    },
+    "node" : {
+      "factory" : "MetaNode",
+      "name" : "Refine"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.views.node.tableview.TableViewNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.meta.xvalidation.XValidatePartitionerFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.mine.neural.rprop.RPropNodeFactory2"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.mine.neural.mlp2.MLPPredictorNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.ext.poi3.node.io.filehandling.excel.reader.ExcelTableReaderNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.pmml.missingval.compute.MissingValueHandlerNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.duplicates.DuplicateRowFilterNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.rowagg.RowAggregatorNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.columnappend2.ColumnAppender2NodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.groupby.GroupByNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.meta.xvalidation.XValidatePartitionerFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.mine.decisiontree2.learner2.DecisionTreeLearnerNodeFactory3"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.mine.decisiontree2.predictor2.DecTreePredictorNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.columnappend2.ColumnAppender2NodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.ext.poi3.node.io.filehandling.excel.writer.ExcelTableWriterNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factory" : "MetaNode",
+      "name" : "Product Infos / Association Rules"
+    },
+    "successor" : {
+      "factory" : "MetaNode",
+      "name" : "Total Price of current Basket"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.groupby.GroupByNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.column.renamer.ColumnRenamerNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.cellsplit2.CellSplitter2NodeFactory"
+    },
+    "node" : {
+      "factory" : "MetaNode",
+      "name" : "Total Price of current Basket"
+    },
+    "successor" : {
+      "factory" : "MetaNode",
+      "name" : "Refine"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.colconvert.numbertostring2.NumberToString2NodeFactory"
+    },
+    "node" : {
+      "factory" : "MetaNode",
+      "name" : "Ungroup collections"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.table.writer.TableWriterNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.ext.poi3.node.io.filehandling.excel.reader.ExcelTableReaderNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.rules.engine.RuleEngineFilterNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.duplicates.DuplicateRowFilterNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.ext.poi3.node.io.filehandling.excel.reader.ExcelTableReaderNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.ext.sun.nodes.script.node.ifswitch.JavaIfSwitchNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.ungroup.UngroupNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.groupby.GroupByNodeFactory"
+    },
+    "count" : 2
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.normalize3.Normalizer3NodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.meta.xvalidation.XValidatePartitionerFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.mine.neural.mlp2.MLPPredictorNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.ext.textprocessing.nodes.preprocessing.ncharsfilter.NCharsFilterNodeFactory2"
+    },
+    "node" : {
+      "factoryId" : "org.knime.ext.textprocessing.nodes.preprocessing.stopwordfilter.StopWordFilterNodeFactory3"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.ext.textprocessing.nodes.preprocessing.caseconverter.CaseConverterNodeFactory2"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.ext.poi3.node.io.filehandling.excel.reader.ExcelTableReaderNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.columnmerge.ColumnMergerNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.rowagg.RowAggregatorNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.valuelookup.ValueLookupNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.column.renamer.ColumnRenamerNodeFactory"
+    },
+    "count" : 2
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.meta.looper.variable.start.LoopStartVariable3NodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.ext.poi3.node.io.filehandling.excel.reader.ExcelTableReaderNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.flowcontrol.breakpoint.BreakpointNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.meta.xvalidation.XValidatePartitionerFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.mine.svm.learner.SVMLearnerNodeFactory2"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.mine.svm.predictor2.SVMPredictorNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.colconvert.numbertostring2.NumberToString2NodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.partition.PartitionNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.mine.decisiontree2.predictor2.DecTreePredictorNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.row3.RowFilterNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"
+    },
+    "count" : 3
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.colconvert.numbertostring2.NumberToString2NodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.pmml.normalize.NormalizerPMMLNodeFactory2"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.pmml.normalize.NormalizerPMMLDeNodeFactory"
+    },
+    "count" : 2
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.colconvert.categorytonumber2.CategoryToNumberNodeFactory2"
+    },
+    "successor" : {
+      "factory" : "MetaNode",
+      "name" : "Train and Cross Validate a Neural Network"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.io.tablecreator.TableCreator2NodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.sorter.SorterNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.views.node.barchart.BarChartNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.ext.poi3.node.io.filehandling.excel.reader.ExcelTableReaderNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.flowcontrol.breakpoint.BreakpointNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.filehandling.utility.nodes.transfer.filechooser.TransferFilesFileChooserNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.ext.poi3.node.io.filehandling.excel.reader.ExcelTableReaderNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.valuelookup.ValueLookupNodeFactory"
+    },
+    "count" : 2
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.meta.xvalidation.XValidatePartitionerFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.mine.svm.predictor2.SVMPredictorNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.meta.xvalidation.AggregateOutputNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factory" : "MetaNode",
+      "name" : "Product Infos / Association Rules"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.matcher.SubsetMatcherNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.colconvert.categorytonumber2.CategoryToNumberNodeFactory2"
+    },
+    "successor" : {
+      "factory" : "MetaNode",
+      "name" : "Train and Cross Validate a SVM"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.stats.viz.extended.ExtendedStatisticsNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.mine.svm.predictor2.SVMPredictorNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.meta.xvalidation.AggregateOutputNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.mine.scorer.accuracy.AccuracyScorer2NodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factory" : "MetaNode",
+      "name" : "Train and Cross Validate a Decision Tree"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.append.row.AppendedRowsNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.sorter.SorterNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.partition.PartitionNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.mine.decisiontree2.learner2.DecisionTreeLearnerNodeFactory3"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.pmml.writer.PMMLWriterNodeFactory2"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.ext.textprocessing.nodes.transformation.stringstodocument.StringsToDocumentNodeFactory2"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.colconvert.categorytonumber2.CategoryToNumberNodeFactory2"
+    },
+    "node" : {
+      "factory" : "MetaNode",
+      "name" : "Train and Cross Validate a SVM"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.append.row.AppendedRowsNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.ext.textprocessing.nodes.preprocessing.numberfilter.NumberFilterNodeFactory2"
+    },
+    "node" : {
+      "factoryId" : "org.knime.ext.textprocessing.nodes.preprocessing.ncharsfilter.NCharsFilterNodeFactory2"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.ext.textprocessing.nodes.preprocessing.stopwordfilter.StopWordFilterNodeFactory3"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.duplicates.DuplicateRowFilterNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.colconvert.numbertostring2.NumberToString2NodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.pivot.Pivot2NodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.ext.birt.nodes.io.filehandling.pdf.PdfReport2NodeFactory"
+    },
+    "count" : 2
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.columnappend2.ColumnAppender2NodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.column.renamer.ColumnRenamerNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.ext.poi3.node.io.filehandling.excel.writer.ExcelTableWriterNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.ext.poi3.node.io.filehandling.excel.reader.ExcelTableReaderNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.columnmerge.ColumnMergerNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.colconvert.stringtonumber2.StringToNumber2NodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.groupby.GroupByNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.table.cropper.TableCropperNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.rowagg.RowAggregatorNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.row3.RowFilterNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.constantvalue.ConstantValueColumnNodeFactory"
+    },
+    "count" : 3
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.mine.neural.rprop.RPropNodeFactory2"
+    },
+    "node" : {
+      "factoryId" : "org.knime.ensembles.pmmlporttocell.PMMLPortToCellNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.rules.engine.RuleEngineNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.mine.decisiontree2.learner2.DecisionTreeLearnerNodeFactory3"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.mine.decisiontree2.predictor2.DecTreePredictorNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.meta.xvalidation.AggregateOutputNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.row3.RowFilterNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.duplicates.DuplicateRowFilterNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.views.node.stackedareachart.StackedAreaChartNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.ext.jep.JEPNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.groupby.GroupByNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.switches.caseswitch.any.CaseEndAnyNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory"
+    },
+    "successor" : {
+      "factory" : "MetaNode",
+      "name" : "Train and Cross Validate a Decision Tree"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.append.row.AppendedRowsNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.sorter.SorterNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.row3.RowFilterNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.ext.poi3.node.io.filehandling.excel.reader.ExcelTableReaderNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.rules.engine.RuleEngineFilterNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.colconvert.stringtonumber2.StringToNumber2NodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.ext.poi3.node.io.filehandling.excel.reader.ExcelTableReaderNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.flowcontrol.trycatch.generictry.DataPortTryNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.flowcontrol.breakpoint.BreakpointNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.ext.jep.JEPNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.views.node.barchart.BarChartNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.colconvert.numbertostring2.NumberToString2NodeFactory"
+    },
+    "successor" : {
+      "factory" : "MetaNode",
+      "name" : "Document Creation and document pre-processing"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.meta.xvalidation.AggregateOutputNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.mine.scorer.accuracy.AccuracyScorer2NodeFactory"
+    },
+    "successor" : {
+      "factory" : "MetaNode",
+      "name" : "Creation of a table with accuracy and model type (decision tree)"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.valuelookup.ValueLookupNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.ext.poi3.node.io.filehandling.excel.reader.ExcelTableReaderNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.crossjoin.CrossJoinerNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.pmml.reader.PMMLReaderNodeFactory3"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.ensembles.pmmlpredict3.PMMLPredictorNodeFactory3"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.append.row.AppendedRowsNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.sorter.SorterNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.views.node.barchart.BarChartNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.column.renamer.ColumnRenamerNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.columnappend2.ColumnAppender2NodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.ext.poi3.node.io.filehandling.excel.writer.ExcelTableWriterNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.ext.poi3.node.io.filehandling.excel.reader.ExcelTableReaderNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.append.row.AppendedRowsNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.views.node.barchart.BarChartNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.rowkey2.RowKeyNodeFactory2"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.ungroup.UngroupNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.ext.textprocessing.nodes.transformation.stringstodocument.StringsToDocumentNodeFactory2"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.ext.textprocessing.nodes.preprocessing.puncterasure.PunctuationErasureNodeFactory2"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.ungroup.UngroupNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.switches.caseswitch.any.CaseStartAnyNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.pivot.Pivot2NodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.switches.caseswitch.any.CaseEndAnyNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.table.cellupdater.CellUpdaterNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.row3.RowFilterNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.append.row.AppendedRowsNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.table.reader.KnimeTableReaderNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.cellsplit2.CellSplitter2NodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.ungroup.UngroupNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.groupby.GroupByNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.append.row.AppendedRowsNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.views.node.barchart.BarChartNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.base.node.io.tablecreator.TableCreator2NodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.cellsplit2.CellSplitter2NodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.io.tablecreator.TableCreator2NodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.cellsplit2.CellSplitter2NodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.matcher.SubsetMatcherNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.filehandling.utility.nodes.transfer.filechooser.TransferFilesFileChooserNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.switches.endif.EndifNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.meta.looper.LoopEndDynamicNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.groupby.GroupByNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.views.node.barchart.BarChartNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.ensembles.pmmlpredict3.PMMLPredictorNodeFactory3"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.partition.PartitionNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.mine.decisiontree2.predictor2.DecTreePredictorNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.groupby.GroupByNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.flowvariable.tablerowtovariable3.TableToVariable3NodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.ext.poi3.node.io.filehandling.excel.reader.ExcelTableReaderNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factory" : "MetaNode",
+      "name" : "Product Infos / Association Rules"
+    },
+    "node" : {
+      "factory" : "MetaNode",
+      "name" : "Top 2 Rules"
+    },
+    "successor" : {
+      "factory" : "MetaNode",
+      "name" : "Refine"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.valuelookup.ValueLookupNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.column.renamer.ColumnRenamerNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.table.cellextractor.CellExtractorNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.table.cellupdater.CellUpdaterNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.row3.RowFilterNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.ext.poi3.node.io.filehandling.excel.reader.ExcelTableReaderNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.append.row.AppendedRowsNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.valuelookup.ValueLookupNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.constantvalue.ConstantValueColumnNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.constantvalue.ConstantValueColumnNodeFactory"
+    },
+    "count" : 3
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.mine.decisiontree2.predictor2.DecTreePredictorNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.meta.xvalidation.AggregateOutputNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.mine.scorer.accuracy.AccuracyScorer2NodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.colconvert.categorytonumber2.CategoryToNumberNodeFactory2"
+    },
+    "node" : {
+      "factory" : "MetaNode",
+      "name" : "Train and Cross Validate a Neural Network"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.append.row.AppendedRowsNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factory" : "MetaNode",
+      "name" : "Product Infos / Association Rules"
+    },
+    "successor" : {
+      "factory" : "MetaNode",
+      "name" : "Top 2 Rules"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.ext.jep.JEPNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.column.renamer.ColumnRenamerNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.columnmerge.ColumnMergerNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.colconvert.stringtonumber2.StringToNumber2NodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.valuelookup.ValueLookupNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.base.node.preproc.groupby.GroupByNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.column.renamer.ColumnRenamerNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : {
+      "factoryId" : "org.knime.ext.poi3.node.io.filehandling.excel.reader.ExcelTableReaderNodeFactory"
+    },
+    "node" : {
+      "factoryId" : "org.knime.base.node.preproc.rowtocolumnheader.RowToColumnHeaderNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.base.node.preproc.table.splitter.TableSplitterNodeFactory"
+    },
+    "count" : 1
+  }, {
+    "predecessor" : null,
+    "node" : {
+      "factoryId" : "org.knime.ext.microsoft.authentication.node.MicrosoftAuthenticatorNodeFactory"
+    },
+    "successor" : {
+      "factoryId" : "org.knime.ext.powerbi.base.nodes.send2.SendToPowerBINodeFactory2"
+    },
+    "count" : 1
+  } ],
+  "version" : {
+    "major" : 3,
+    "minor" : 2,
+    "revision" : 0,
+    "qualifier" : ""
+  }
+}

@@ -1,3 +1,2 @@
-2025/11/13-11:18:01.765 411c Reusing MANIFEST E:\COURSES\KNIME - a crash course for beginners\knime-workspace\.metadata\.plugins\com.equo.chromium\cefcache\Default\Local Storage\leveldb/MANIFEST-000001
-2025/11/13-11:18:01.772 411c Recovering log #3
-2025/11/13-11:18:01.774 411c Reusing old log E:\COURSES\KNIME - a crash course for beginners\knime-workspace\.metadata\.plugins\com.equo.chromium\cefcache\Default\Local Storage\leveldb/000003.log 
+2025/11/13-18:27:50.227 65f8 Creating DB D:\E-COURSES-KNIME---a-crash-course-for-beginners\knime-workspace\.metadata\.plugins\com.equo.chromium\cefcache\Default\Local Storage\leveldb since it was missing.
+2025/11/13-18:27:50.255 65f8 Reusing MANIFEST D:\E-COURSES-KNIME---a-crash-course-for-beginners\knime-workspace\.metadata\.plugins\com.equo.chromium\cefcache\Default\Local Storage\leveldb/MANIFEST-000001
